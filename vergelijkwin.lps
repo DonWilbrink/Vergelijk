@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <ManyBuildModesSelection Value="Default,Win32,Win64,Linux32,Linux64,Rpi32,Rpi64"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="vergelijkwin.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="2"/>
+        <CursorPos Y="23"/>
+        <UsageCount Value="29"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory>
+      <Position>
+        <Filename Value="vergelijkwin.lpr"/>
+        <Caret Line="10" Column="21"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

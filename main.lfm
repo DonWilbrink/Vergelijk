@@ -1,0 +1,86 @@
+object frmMain: TfrmMain
+  Left = 350
+  Height = 298
+  Top = 250
+  Width = 392
+  Caption = 'Vergelijk'
+  ClientHeight = 298
+  ClientWidth = 392
+  OnCreate = FormCreate
+  object edGetal1: TEdit
+    Left = 40
+    Height = 23
+    Top = 64
+    Width = 80
+    NumbersOnly = True
+    TabOrder = 0
+    Text = '0'
+  end
+  object Label1: TLabel
+    Left = 40
+    Height = 15
+    Top = 24
+    Width = 36
+    Caption = 'Getal 1'
+  end
+  object Label2: TLabel
+    Left = 272
+    Height = 15
+    Top = 24
+    Width = 36
+    Caption = 'Getal 2'
+  end
+  object edGetal2: TEdit
+    Left = 272
+    Height = 23
+    Top = 64
+    Width = 80
+    NumbersOnly = True
+    TabOrder = 1
+    Text = '0'
+  end
+  object cbOperator: TComboBox
+    Left = 144
+    Height = 23
+    Top = 64
+    Width = 100
+    ItemHeight = 15
+    ItemIndex = 0
+    Items.Strings = (
+      'and'
+      'or'
+      'xor'
+    )
+    TabOrder = 2
+    Text = 'and'
+  end
+  object btnBereken: TButton
+    Left = 40
+    Height = 25
+    Top = 112
+    Width = 91
+    Caption = 'Bereken'
+    TabOrder = 3
+    OnClick = btnBerekenClick
+  end
+  object sgResultaat: TStringGrid
+    Left = 44
+    Height = 100
+    Top = 164
+    Width = 308
+    ColCount = 4
+    Columns = <    
+      item
+        Title.Caption = 'Integer'
+      end    
+      item
+        Title.Caption = 'Binair'
+        Width = 100
+      end    
+      item
+        Title.Caption = 'Hex'
+      end>
+    RowCount = 4
+    TabOrder = 4
+  end
+end

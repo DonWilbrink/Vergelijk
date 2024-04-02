@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectGroup FileVersion="2">
+    <Targets>
+      <Target FileName="vergelijkwin.lpi">
+        <BuildModes>
+          <Mode Name="Default"/>
+          <Mode Name="Win32"/>
+          <Mode Name="Win64"/>
+          <Mode Name="Linux32"/>
+          <Mode Name="Linux64"/>
+          <Mode Name="Rpi32"/>
+          <Mode Name="Rpi64"/>
+        </BuildModes>
+      </Target>
+    </Targets>
+  </ProjectGroup>
+</CONFIG>
