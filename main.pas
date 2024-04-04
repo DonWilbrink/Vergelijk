@@ -51,9 +51,9 @@ var
 begin
   x := StrToInt(edGetal1.Text);
   y := StrToInt(edGetal2.Text);
-  s1 := IntToBin(x,8);
+  s1 := IntToBin(x,12);
   s4 := IntToHex(x);
-  s2 := IntToBin(y,8);
+  s2 := IntToBin(y,12);
   s5 := IntToHex(y);
   o := cbOperator.ItemIndex;
   case o of
@@ -61,7 +61,7 @@ begin
     1: z := x or y;
     2: z := x xor y;
   end;
-  s3 := IntToBin(z,8);
+  s3 := IntToBin(z,12);
   s6 := IntToHex(z);
   sgResultaat.Cells[1,1] := x.ToString;
   sgResultaat.Cells[1,2] := y.ToString;
